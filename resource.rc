@@ -1,0 +1,183 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+fs_logbar DIALOG DISCARDABLE  0, 0, 334, 236
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "LOG"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        fs_logtext,7,7,320,222,ES_MULTILINE | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    fs_logbar, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 327
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) (unknown sub-lang: 0xD) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENP)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, 0xD
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+fs_dlgsplit DIALOG DISCARDABLE  0, 0, 315, 183
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "Universal File Splitter & Encrypter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Input File",fs_inputlabel,17,10,30,8
+    EDITTEXT        fs_filename,17,22,230,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open File...",fs_Menu,250,20,54,13
+    LTEXT           "Output Directory",fs_inputlabel2,18,38,82,8
+    EDITTEXT        fs_outputdir,17,50,230,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse.",fs_getdir,250,48,54,13
+    LTEXT           "Splitting Specifications:",IDC_STATIC,19,71,113,12
+    GROUPBOX        "",IDC_STATIC,17,81,92,41
+    SCROLLBAR       fs_scroll,73,101,8,15,SBS_VERT
+    EDITTEXT        fs_parts,30,102,30,15,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Info",IDC_STATIC,17,129,98,47,WS_GROUP
+    LTEXT           "File Size: ",IDC_STATIC,22,142,30,8
+    LTEXT           "Parts Size: ",IDC_STATIC,21,155,34,8
+    LTEXT           "0 bytes",fs_filesize,56,142,42,8
+    LTEXT           "0 bytes",fs_partsize,57,155,46,8
+    PUSHBUTTON      "Split File",fs_split,120,87,50,14
+    PUSHBUTTON      "Join File",fs_join,171,87,50,14
+    PUSHBUTTON      "Cancel",fs_cancel,223,87,50,14
+    PUSHBUTTON      "About",fs_about,141,130,50,14
+    PUSHBUTTON      "Exit",fs_exit,193,129,50,14
+    CONTROL         "Progress2",fs_progressbar,"msctls_progress32",WS_BORDER,
+                    121,165,181,11
+    PUSHBUTTON      "Log",fs_log,223,109,50,14
+    LTEXT           "By Parts",IDC_STATIC,23,90,33,9
+    PUSHBUTTON      "Encrypt File",fs_cencrypt,119,109,50,14
+    PUSHBUTTON      "Decrypt File",fs_cdecrypt,171,109,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    fs_dlgsplit, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 308
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICONSPLIT           ICON    DISCARDABLE     "Graphic\\UFES-icon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "graphic\\default1.bin"
+#endif    // English (U.S.) (unknown sub-lang: 0xD) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FileSplitter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\PRATHI~1\AppData\Local\Temp\RSP5A22.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "C:\Program Files\MySQL\MySQL Server 5.0\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/FileSplitter.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /D /GZ /c 
+"C:\Users\Prathik George\Desktop\FINAL PROJECT WITH DB SUPPORT\Latest Clean\UFS\FileInfo.cpp"
+"C:\Users\Prathik George\Desktop\FINAL PROJECT WITH DB SUPPORT\Latest Clean\UFS\progressbar.cpp"
+]
+Creating command line "cl.exe @C:\Users\PRATHI~1\AppData\Local\Temp\RSP5A22.tmp" 
+Creating temporary file "C:\Users\PRATHI~1\AppData\Local\Temp\RSP5A33.tmp" with contents
+[
+comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib libmysql.lib mysys.lib mysqlclient.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/FileSplitter.pdb" /debug /machine:I386 /out:"FileSplitter/Debug/FileSplitter.exe" /pdbtype:sept /libpath:"C:\Program Files\MySQL\MySQL Server 5.0\lib\debug" 
+".\Debug\FileInfo.obj"
+".\Debug\progressbar.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\Users\PRATHI~1\AppData\Local\Temp\RSP5A33.tmp"
+<h3>Output Window</h3>
+Compiling...
+FileInfo.cpp
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\log.h(11) : warning C4101: 'row' : unreferenced local variable
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\log.h(13) : warning C4101: 'i' : unreferenced local variable
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\log.h(75) : warning C4101: 'row' : unreferenced local variable
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\log.h(77) : warning C4101: 'i' : unreferenced local variable
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\fileinfo.cpp(55) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\fileinfo.cpp(55) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\fileinfo.cpp(24) : warning C4101: 'tbl' : unreferenced local variable
+c:\users\prathik george\desktop\final project with db support\latest clean\ufs\fileinfo.cpp(47) : warning C4101: 'file' : unreferenced local variable
+progressbar.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+FileSplitter.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
